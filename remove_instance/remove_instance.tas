@@ -1,0 +1,15 @@
+@echo off
+set BATCH_NAME=remove_instance
+start /B networkstatus
+wait -t img -vlp 1.png(TM(ccoeffnormed,0.95)) 20
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+mouseoperation click 1.png(TM(ccoeffnormed,0.95))
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+send "002.evt"
+:end
+@taskkill /f /im networkstatus.exe
+echo END_TEST_CASE
+goto :eof
+:fail
+echo Fail
+goto end
