@@ -1,0 +1,49 @@
+@echo off
+set BATCH_NAME=add_instance_2
+start /B networkstatus
+wait -t img -vlp 1.png(TM(ccoeffnormed,0.95)) 60
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+mouseoperation click 1.png(TM(ccoeffnormed,0.95))
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+wait -t img -vlp 2.png(TM(ccoeffnormed,0.95)) 3
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+mouseoperation click 2.png(TM(ccoeffnormed,0.95))
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+wait -t img -vlp 3.png(TM(ccoeffnormed,0.95)) 60
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+mouseoperation click 3.png(TM(ccoeffnormed,0.95))
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+wait -t img -vlp 4.png(GHT(60)) 60
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+mouseoperation click 4.png(GHT(60))
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+wait -t img -vlp 5.png(GHT(60)) 3
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+mouseoperation click 5.png(GHT(60))
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+wait -t img -vlp 6.png(GHT(60)) 3
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+mouseoperation click 6.png(GHT(60))
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+wait -t img -vlp 7.png(GHT(60)) 3
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+mouseoperation click 7.png(GHT(60))
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+wait -t img -vlp 8.png(TM(ccoeffnormed,0.95)) 3
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+mouseoperation click 8.png(TM(ccoeffnormed,0.95))
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+wait -t img -vlp 9.png(TM(ccoeffnormed,0.95)) 60
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+mouseoperation click 9.png(TM(ccoeffnormed,0.95))
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+wait -t img -vlp home.png(TM(ccoeffnormed,0.95)) 60
+assert -t bgimg -vlp home.png(TM(ccoeffnormed,0.95)) -a n:1:t
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+:end
+@taskkill /f /im networkstatus.exe
+echo END_TEST_CASE
+goto :eof
+:fail
+echo Fail
+goto end

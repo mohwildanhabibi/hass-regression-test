@@ -129,30 +129,6 @@ wait -t img -vlp 8.png(TM(ccoeffnormed,0.95)) 3
 @if %ERRORLEVEL%==0 (echo Success) else goto fail
 mouseoperation click 8.png(TM(ccoeffnormed,0.95))
 @if %ERRORLEVEL%==0 (echo Success) else goto fail
-wait -t img -vlp 3.png(TM(ccoeffnormed,0.95)) 60
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-mouseoperation click 3.png(TM(ccoeffnormed,0.95))
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-wait -t img -vlp 16.png(TM(ccoeffnormed,0.95)) 3
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-mouseoperation click 16.png(TM(ccoeffnormed,0.95))
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-wait -t img -vlp 13.png(TM(ccoeffnormed,0.95)) 3
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-mouseoperation click 13.png(TM(ccoeffnormed,0.95))
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-wait -t img -vlp 17.png(GHT(60)) 3
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-mouseoperation click 17.png(GHT(60))
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-wait -t img -vlp 7.png(TM(ccoeffnormed,0.95)) 3
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-mouseoperation click 7.png(TM(ccoeffnormed,0.95))
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-wait -t img -vlp 18.png(GHT(60)) 3
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-mouseoperation click 18.png(GHT(60))
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
 tasdelay 8
 wait -t img -vlp 14.png(TM(ccoeffnormed,0.95)) 60
 @if %ERRORLEVEL%==0 (echo Success) else goto fail

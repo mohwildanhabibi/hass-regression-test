@@ -78,6 +78,11 @@
       "Name": "back_home.tas",
       "RelativePath": "back_home",
       "Level": 0
+    },
+    {
+      "Name": "add_instance_2.tas",
+      "RelativePath": "add_instance_2",
+      "Level": 0
     }
   ]
 }

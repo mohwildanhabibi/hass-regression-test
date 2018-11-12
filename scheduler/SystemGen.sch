@@ -13,3 +13,4 @@ add_instance 1
 remove_instance 1
 go_to_instance 1
 back_home 1
+add_instance_2 1
