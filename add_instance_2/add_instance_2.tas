@@ -33,6 +33,7 @@ wait -t img -vlp 8.png(TM(ccoeffnormed,0.95)) 3
 @if %ERRORLEVEL%==0 (echo Success) else goto fail
 mouseoperation click 8.png(TM(ccoeffnormed,0.95))
 @if %ERRORLEVEL%==0 (echo Success) else goto fail
+tasdelay 8
 wait -t img -vlp 9.png(TM(ccoeffnormed,0.95)) 60
 @if %ERRORLEVEL%==0 (echo Success) else goto fail
 mouseoperation click 9.png(TM(ccoeffnormed,0.95))
