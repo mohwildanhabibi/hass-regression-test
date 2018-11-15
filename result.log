@@ -298,3 +298,6 @@
 [ 2018/11/12 AM 00:37:01  ] [ 2018/11/12 AM 00:37:12  ] remove_instance.tas [ Passed ] 
 [ 2018/11/12 AM 00:37:01  ] [ 2018/11/12 AM 00:37:13  ] remove_instance.tas [ Skipped ] 
 [ 2018/11/12 AM 00:38:58  ] [ 2018/11/12 AM 00:39:07  ] remove_instance.tas [ Passed ] 
+[ 2018/11/16 AM 06:49:05  ] [ 2018/11/16 AM 06:49:29  ] add_instance.tas [ Failed ] 
+[ 2018/11/16 AM 06:51:06  ] [ 2018/11/16 AM 06:51:37  ] add_instance.tas [ Failed ] 
+[ 2018/11/16 AM 07:03:16  ] [ 2018/11/16 AM 07:05:52  ] add_instance.tas [ Passed ] 
