@@ -301,3 +301,6 @@
 [ 2018/11/16 AM 06:49:05  ] [ 2018/11/16 AM 06:49:29  ] add_instance.tas [ Failed ] 
 [ 2018/11/16 AM 06:51:06  ] [ 2018/11/16 AM 06:51:37  ] add_instance.tas [ Failed ] 
 [ 2018/11/16 AM 07:03:16  ] [ 2018/11/16 AM 07:05:52  ] add_instance.tas [ Passed ] 
+[ 2018/11/24 PM 15:50:02  ] [ 2018/11/24 PM 15:50:40  ] open_openstack.tas [ Failed ] 
+[ 2018/11/24 PM 15:50:42  ] [ 2018/11/24 PM 15:50:46  ] create_cluster.tas [ Skipped ] 
+[ 2018/11/24 PM 15:53:05  ] [ 2018/11/24 PM 15:53:31  ] open_openstack.tas [ Passed ] 

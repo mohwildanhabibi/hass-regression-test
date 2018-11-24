@@ -2,7 +2,7 @@
 set BATCH_NAME=open_openstack
 start /B networkstatus
 send "002.evt"
-wait -t img -vlp 4.png(TM(ccoeffnormed,0.95)) 30
+wait -t img -vlp 6.png(TM(ccoeffnormed,0.95)) 30
 @if %ERRORLEVEL%==0 (echo Success) else goto fail
 send "001.evt"
 wait -t img -vlp 5.png(TM(ccoeffnormed,0.95)) 60
