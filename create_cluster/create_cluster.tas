@@ -9,7 +9,7 @@ wait -t img -vlp click-HAIPMI-UT-04-02.png(TM(ccoeffnormed,0.95)) 60
 @if %ERRORLEVEL%==0 (echo Success) else goto fail
 mouseoperation click click-HAIPMI-UT-04-02.png(TM(ccoeffnormed,0.95))
 @if %ERRORLEVEL%==0 (echo Success) else goto fail
-wait -t img -vlp create-cluster.png(GHT(60)) 15
+wait -t img -vlp create-cluster.png(GHT(60)) 45
 @if %ERRORLEVEL%==0 (echo Success) else goto fail
 mouseoperation click create-cluster.png(GHT(60))
 @if %ERRORLEVEL%==0 (echo Success) else goto fail
