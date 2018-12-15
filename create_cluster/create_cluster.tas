@@ -11,13 +11,9 @@ mouseoperation click click-HAIPMI-UT-04-02.png(TM(ccoeffnormed,0.95))
 @if %ERRORLEVEL%==0 (echo Success) else goto fail
 wait -t img -vlp create-cluster.png(GHT(60)) 45
 @if %ERRORLEVEL%==0 (echo Success) else goto fail
-mouseoperation click create-cluster.png(GHT(60))
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
+send "003.evt"
+tasdelay 2
 send "001.evt"
-wait -t img -vlp click-HAIPMI-UT-04-04.png(TM(ccoeffnormed,0.95)) 60
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-mouseoperation click click-HAIPMI-UT-04-04.png(TM(ccoeffnormed,0.95))
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
 wait -t img -vlp assert-HAIPMI-UT-04-03.png(TM(ccoeffnormed,0.95)) 180
 @if %ERRORLEVEL%==0 (echo Success) else goto fail
 assert -t bgimg -vlp assert-HAIPMI-UT-04-03.png(TM(ccoeffnormed,0.95)) -a n:1:t
@@ -26,12 +22,7 @@ wait -t img -vlp clickHome.png(TM(ccoeffnormed,0.95)) 60
 @if %ERRORLEVEL%==0 (echo Success) else goto fail
 mouseoperation click clickHome.png(TM(ccoeffnormed,0.95))
 @if %ERRORLEVEL%==0 (echo Success) else goto fail
-wait -t img -vlp home.PNG(TM(ccoeffnormed,0.95)) 60
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-wait -t img -vlp create-cluster.png(GHT(60)) 3
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-mouseoperation click create-cluster.png(GHT(60))
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
+tasdelay 5
 :end
 @taskkill /f /im networkstatus.exe
 echo END_TEST_CASE
