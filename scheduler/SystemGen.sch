@@ -14,3 +14,7 @@ remove_instance 1
 go_to_instance 1
 back_home 1
 add_instance_2 1
+compnode1crash 1
+compnode2crash 1
+compnode1netwisol 1
+compnode2netwisol 1

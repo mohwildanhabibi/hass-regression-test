@@ -83,6 +83,26 @@
       "Name": "add_instance_2.tas",
       "RelativePath": "add_instance_2",
       "Level": 0
+    },
+    {
+      "Name": "compnode1crash.tas",
+      "RelativePath": "compnode1crash",
+      "Level": 0
+    },
+    {
+      "Name": "compnode2crash.tas",
+      "RelativePath": "compnode2crash",
+      "Level": 0
+    },
+    {
+      "Name": "compnode1netwisol.tas",
+      "RelativePath": "compnode1netwisol",
+      "Level": 0
+    },
+    {
+      "Name": "compnode2netwisol.tas",
+      "RelativePath": "compnode2netwisol",
+      "Level": 0
     }
   ]
 }

@@ -1,0 +1,29 @@
+@echo off
+set BATCH_NAME=compnode1crash
+start /B networkstatus
+wait -t img -vlp 1.png(TM(ccoeffnormed,0.95)) 3
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+mouseoperation click 1.png(TM(ccoeffnormed,0.95))
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+wait -t img -vlp 2.png(TM(ccoeffnormed,0.95)) 3
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+mouseoperation click 2.png(TM(ccoeffnormed,0.95))
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+send "001.evt"
+tasdelay 250
+send "002.evt"
+tasdelay 7
+assert -t bgimg -vlp 3.png(TM(ccoeffnormed,0.95)) -a n:1:t
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+wait -t img -vlp home.png(TM(ccoeffnormed,0.95)) 3
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+mouseoperation click home.png(TM(ccoeffnormed,0.95))
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+tasdelay 100
+:end
+@taskkill /f /im networkstatus.exe
+echo END_TEST_CASE
+goto :eof
+:fail
+echo Fail
+goto end
