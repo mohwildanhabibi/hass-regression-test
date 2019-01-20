@@ -18,3 +18,11 @@ compnode1crash 1
 compnode2crash 1
 compnode1netwisol 1
 compnode2netwisol 1
+compnode1hang 1
+compnode2hang 1
+contrnode1crash 1
+contrnode2crash 1
+contrnode1netwisol 1
+contrnode2netwisol 1
+contrnode1hang 1
+contrnode2hang 1

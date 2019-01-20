@@ -356,3 +356,5 @@
 [ 2019/01/07 PM 23:51:58  ] [ 2019/01/07 PM 23:52:26  ] remove_nodes_from_cluster.tas [ Passed ] 
 [ 2019/01/07 PM 23:52:27  ] [ 2019/01/07 PM 23:52:45  ] delete_cluster.tas [ Passed ] 
 [ 2019/01/07 PM 23:52:46  ] [ 2019/01/07 PM 23:52:53  ] close_openstack.tas [ Passed ] 
+[ 2019/01/20 PM 15:59:11  ] [ 2019/01/20 PM 16:06:44  ] compnode1hang.tas [ Passed ] 
+[ 2019/01/20 PM 16:07:26  ] [ 2019/01/20 PM 16:14:51  ] compnode2hang.tas [ Passed ] 

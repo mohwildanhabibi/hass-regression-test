@@ -6,6 +6,8 @@ compnode1crash 1
 compnode2crash 1 
 compnode1netwisol 1 
 compnode2netwisol 1 
+compnode1hang 1 
+compnode2hang 1 
 go_to_instance 1 
 remove_instance 6 
 back_home 1 

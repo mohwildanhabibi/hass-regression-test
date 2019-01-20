@@ -103,6 +103,46 @@
       "Name": "compnode2netwisol.tas",
       "RelativePath": "compnode2netwisol",
       "Level": 0
+    },
+    {
+      "Name": "compnode1hang.tas",
+      "RelativePath": "compnode1hang",
+      "Level": 0
+    },
+    {
+      "Name": "compnode2hang.tas",
+      "RelativePath": "compnode2hang",
+      "Level": 0
+    },
+    {
+      "Name": "contrnode1crash.tas",
+      "RelativePath": "contrnode1crash",
+      "Level": 0
+    },
+    {
+      "Name": "contrnode2crash.tas",
+      "RelativePath": "contrnode2crash",
+      "Level": 0
+    },
+    {
+      "Name": "contrnode1netwisol.tas",
+      "RelativePath": "contrnode1netwisol",
+      "Level": 0
+    },
+    {
+      "Name": "contrnode2netwisol.tas",
+      "RelativePath": "contrnode2netwisol",
+      "Level": 0
+    },
+    {
+      "Name": "contrnode1hang.tas",
+      "RelativePath": "contrnode1hang",
+      "Level": 0
+    },
+    {
+      "Name": "contrnode2hang.tas",
+      "RelativePath": "contrnode2hang",
+      "Level": 0
     }
   ]
 }
