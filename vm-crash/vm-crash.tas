@@ -1,10 +1,11 @@
 @echo off
-set BATCH_NAME=open_cmd
+set BATCH_NAME=vm-crash
 start /B networkstatus
-start chrome http://140.115.53.34:777/horizon
+send "001.evt"
 tasdelay 1
 assert -t bgimg -vlp 1.png(TM(ccoeffnormed,0.95)) -a n:1:t
 @if %ERRORLEVEL%==0 (echo Success) else goto fail
+send "002.evt"
 :end
 @taskkill /f /im networkstatus.exe
 echo END_TEST_CASE

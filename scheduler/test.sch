@@ -8,8 +8,10 @@ compnode1netwisol 1
 compnode2netwisol 1 
 compnode1hang 1 
 compnode2hang 1 
+vm-oshanged 1 
+vm-crash 1 
 go_to_instance 1 
-remove_instance 6 
+remove_instance 1 
 back_home 1 
 remove_nodes_from_cluster 1 
 delete_cluster 1 

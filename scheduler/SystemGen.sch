@@ -8,12 +8,10 @@ reboot_nodes 1
 open_openstack 1
 close_openstack 1
 add_nodes_to_cluster 1
-open_cmd 1
 add_instance 1
 remove_instance 1
 go_to_instance 1
 back_home 1
-add_instance_2 1
 compnode1crash 1
 compnode2crash 1
 compnode1netwisol 1
@@ -26,3 +24,5 @@ contrnode1netwisol 1
 contrnode2netwisol 1
 contrnode1hang 1
 contrnode2hang 1
+vm-crash 1
+vm-oshanged 1

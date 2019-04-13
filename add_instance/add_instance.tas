@@ -16,61 +16,6 @@ mouseoperation click 3.png(TM(ccoeffnormed,0.95))
 tasdelay 2
 send "001.evt"
 tasdelay 10
-wait -t img -vlp ha.png(TM(ccoeffnormed,0.95)) 3
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-mouseoperation click ha.png(TM(ccoeffnormed,0.95))
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-wait -t img -vlp 3.png(TM(ccoeffnormed,0.95)) 3
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-mouseoperation click 3.png(TM(ccoeffnormed,0.95))
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-tasdelay 2
-send "002.evt"
-tasdelay 10
-wait -t img -vlp ha.png(TM(ccoeffnormed,0.95)) 3
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-mouseoperation click ha.png(TM(ccoeffnormed,0.95))
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-wait -t img -vlp 3.png(TM(ccoeffnormed,0.95)) 3
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-mouseoperation click 3.png(TM(ccoeffnormed,0.95))
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-tasdelay 2
-send "003.evt"
-tasdelay 10
-wait -t img -vlp ha.png(TM(ccoeffnormed,0.95)) 3
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-mouseoperation click ha.png(TM(ccoeffnormed,0.95))
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-wait -t img -vlp 3.png(TM(ccoeffnormed,0.95)) 3
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-mouseoperation click 3.png(TM(ccoeffnormed,0.95))
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-tasdelay 2
-send "004.evt"
-tasdelay 10
-wait -t img -vlp ha.png(TM(ccoeffnormed,0.95)) 3
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-mouseoperation click ha.png(TM(ccoeffnormed,0.95))
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-wait -t img -vlp 3.png(TM(ccoeffnormed,0.95)) 3
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-mouseoperation click 3.png(TM(ccoeffnormed,0.95))
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-tasdelay 2
-send "005.evt"
-tasdelay 10
-wait -t img -vlp ha.png(TM(ccoeffnormed,0.95)) 3
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-mouseoperation click ha.png(TM(ccoeffnormed,0.95))
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-wait -t img -vlp 3.png(TM(ccoeffnormed,0.95)) 3
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-mouseoperation click 3.png(TM(ccoeffnormed,0.95))
-@if %ERRORLEVEL%==0 (echo Success) else goto fail
-tasdelay 2
-send "006.evt"
-tasdelay 10
 wait -t img -vlp 14.png(TM(ccoeffnormed,0.95)) 3
 @if %ERRORLEVEL%==0 (echo Success) else goto fail
 mouseoperation click 14.png(TM(ccoeffnormed,0.95))

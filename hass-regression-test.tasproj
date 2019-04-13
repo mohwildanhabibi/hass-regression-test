@@ -55,11 +55,6 @@
       "Level": 0
     },
     {
-      "Name": "open_cmd.tas",
-      "RelativePath": "open_cmd",
-      "Level": 0
-    },
-    {
       "Name": "add_instance.tas",
       "RelativePath": "add_instance",
       "Level": 0
@@ -77,11 +72,6 @@
     {
       "Name": "back_home.tas",
       "RelativePath": "back_home",
-      "Level": 0
-    },
-    {
-      "Name": "add_instance_2.tas",
-      "RelativePath": "add_instance_2",
       "Level": 0
     },
     {
@@ -142,6 +132,16 @@
     {
       "Name": "contrnode2hang.tas",
       "RelativePath": "contrnode2hang",
+      "Level": 0
+    },
+    {
+      "Name": "vm-crash.tas",
+      "RelativePath": "vm-crash",
+      "Level": 0
+    },
+    {
+      "Name": "vm-oshanged.tas",
+      "RelativePath": "vm-oshanged",
       "Level": 0
     }
   ]

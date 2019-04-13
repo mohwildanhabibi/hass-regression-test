@@ -13,7 +13,7 @@ send "001.evt"
 tasdelay 250
 send "002.evt"
 tasdelay 7
-assert -t bgimg -vlp 3.png(TM(ccoeffnormed,0.95)) -a n:1:t
+assert -t bgimg -vlp 4.png(GHT(60)) -a n:1:t
 @if %ERRORLEVEL%==0 (echo Success) else goto fail
 wait -t img -vlp home.png(TM(ccoeffnormed,0.95)) 3
 @if %ERRORLEVEL%==0 (echo Success) else goto fail
