@@ -1,0 +1,15 @@
+@echo off
+set BATCH_NAME=vm-network
+start /B networkstatus
+send "001.evt"
+tasdelay 1
+assert -t bgimg -vlp 1.png(TM(ccoeffnormed,0.95)) -a n:1:t
+@if %ERRORLEVEL%==0 (echo Success) else goto fail
+send "002.evt"
+:end
+@taskkill /f /im networkstatus.exe
+echo END_TEST_CASE
+goto :eof
+:fail
+echo Fail
+goto end

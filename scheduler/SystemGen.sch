@@ -26,3 +26,4 @@ contrnode1hang 1
 contrnode2hang 1
 vm-crash 1
 vm-oshanged 1
+vm-network 1

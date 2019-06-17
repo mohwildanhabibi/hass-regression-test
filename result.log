@@ -517,3 +517,6 @@
 [ 2019/04/14 PM 19:39:25  ] [ 2019/04/14 PM 19:41:33  ] remove_nodes_from_cluster.tas [ Passed ] 
 [ 2019/04/14 PM 19:41:34  ] [ 2019/04/14 PM 19:43:01  ] delete_cluster.tas [ Failed ] 
 [ 2019/04/14 PM 19:43:01  ] [ 2019/04/14 PM 19:44:13  ] close_openstack.tas [ Failed ] 
+[ 2019/06/17 PM 20:26:54  ] [ 2019/06/17 PM 20:27:37  ] open_openstack.tas [ Passed ] 
+[ 2019/06/17 PM 20:48:24  ] [ 2019/06/17 PM 20:49:43  ] create_cluster.tas [ Passed ] 
+[ 2019/06/17 PM 20:52:07  ] [ 2019/06/17 PM 20:54:14  ] add_nodes_to_cluster.tas [ Skipped ] 

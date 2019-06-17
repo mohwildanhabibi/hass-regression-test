@@ -143,6 +143,11 @@
       "Name": "vm-oshanged.tas",
       "RelativePath": "vm-oshanged",
       "Level": 0
+    },
+    {
+      "Name": "vm-network.tas",
+      "RelativePath": "vm-network",
+      "Level": 0
     }
   ]
 }
