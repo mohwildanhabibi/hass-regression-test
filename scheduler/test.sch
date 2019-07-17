@@ -8,6 +8,8 @@ compnode1netwisol 1
 compnode2netwisol 1 
 compnode1hang 1 
 compnode2hang 1 
+close_openstack 1 
+open_openstack 1 
 vm-oshanged 1 
 vm-crash 1 
 vm-network 1 
